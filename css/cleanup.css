@@ -1,1 +1,78 @@
-/* write your override styles here */
+/* Adding more detailed CSS updates */
+
+/* New class with a few more properties */
+.new-class {
+    background-color: #f00;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Styling buttons with hover effect */
+  .button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    border: 2px solid #0056b3;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .button:hover {
+    background-color: #0056b3;
+    cursor: pointer;
+  }
+  
+  /* Container adjustments */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+  }
+  
+  .card-header {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .card-body {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Adjusting header */
+  .header {
+    background-color: #222;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+    margin-bottom: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+  }
+  
+  footer a {
+    color: #f8f8f8;
+    text-decoration: none;
+  }
+  
